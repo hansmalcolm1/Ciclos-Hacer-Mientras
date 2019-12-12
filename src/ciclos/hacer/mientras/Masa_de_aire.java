@@ -70,6 +70,15 @@ public class Masa_de_aire {
             prom_masa+=masa_de_aire[i];
             i++;
         }
+        prom_motocicleta/=motocicleta;
+        prom_automovil/=automovil;
+        prom_masa/=vehiculos;
+        System.out.println("El promedio de la masa de aire de las "
+                + "motocicletas es de: "+prom_motocicleta);
+        System.out.println("El promedio de la masa de aire de los "
+                + "automoviles es de: "+prom_automovil);
+        System.out.println("El promedio de la masa de aire de los "
+                + "vehículos es de: "+prom_masa);
     }
     
 }
